@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	/*background: #c1eef0;*/
+	background:url(fondo4.jpeg); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed;
+	font-family: 'Ubuntu', 'Open Sans', sans-serif;	
+
+}
+
+
+header {
+	color: #fff;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav {
+	width:90%;
+	max-width:1000px;
+	z-index: 1000;
+	margin:0px ;
+	background:#00171f;
+}
+ 
+ 
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+header nav ul li {
+	display: inline-block;
+	position: relative;
+}
+ 
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+ 
+header nav ul li span {
+	margin-right:10px;
+}
+ 
+/* IMAGEN  SUPERIOR*/
+.logo-imagen{
+    background: #00171f;  
+   padding-top: 40px;
+
+}
+
+.logo-imagen .logo-pateos img{
+    background: #00171f;
+    width: 100%;
+	vertical-align: top;
+}
+	div.logo-pateos{
+		padding-top: 40px;
+		padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+/* MENU PRINCIPAL*/
+
+.logo-menu {
+	background: #00171f;
+	width:100%;
+	position: fixed;
+	z-index: 2000;
+	
+}
+
+.logo-menu h2 {
+    font:bold 125% 'Ubuntu', sans-serif;	
+	font-size: 30px;
+    font-weight: 800;
+}
+
+.logo-menu .menu a {
+    font:bold 125% 'Ubuntu', sans-serif;
+	display: inline-block;
+	padding: 20px 20px;
+}
+
+.logo-menu .menu a:hover {
+/*
+	border-bottom: 4px solid #ff9f1c;
+	padding-bottom: 36px;
+*/
+    background:#003459;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+     box-shadow:  10px -10px 10px #999;/*Estandar por defecto*/
+    border:1px solid #E3E3E3;
+    border-radius: 0 30px 0 30px
+}
+
+.submenu {
+	background: #003459;
+	padding: 10px;
+}
+
+/* MAIN */
+.main {
+	margin: 10px;
+	
+}
+
+.main .container {
+	align-content: center;
+}
+
+
+.main .containerindex :hover .thumb :not(:hover) {  
+    opacity: .9;
+}
+
+.main .thumb {
+	margin-bottom: 20px;
+}
+
+.main .thumb img {
+	width: 100%;
+	vertical-align: top;
+	
+}
+
+
+/* FOOTER */
+footer {
+	background: #00171f;
+	color:#fff;
+	padding: 40px 0;
+}
+
+footer .nav a {
+	width: 100%;
+	display: block;
+	padding: 20px;
+	color:#fff;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+footer .nav a:hover {
+	text-decoration: underline;
+}
+
+footer .logo {
+	background: #003459;
+	color:#fff;
+	padding: 25px;
+	font-weight: 300;
+	border-radius: 0 30px 0 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.consejos {
+font-family: 'Ubuntu', sans-serif;
+color: #fdfefe;
+font-size: 20px;
+}
